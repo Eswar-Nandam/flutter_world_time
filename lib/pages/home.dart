@@ -35,6 +35,11 @@ class _HomeState extends State<Home> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Container(
+                child: Image(
+                  image: AssetImage('assets/${data['flag']}'),
+                ),
+              ),
               TextButton.icon(
                 label: const Text(
                   'Edit Location',
